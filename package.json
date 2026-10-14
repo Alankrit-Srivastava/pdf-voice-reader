@@ -1,0 +1,10 @@
+{
+  "name": "clarity-reader",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local-first PDF voice reader with optional Antigravity explanations.",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs && python -m unittest tests/test_backend.py",
+    "start": "python ai_pdf_voice_reader.py --ui"
+  }
+}

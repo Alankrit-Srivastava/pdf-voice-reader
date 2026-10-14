@@ -1,0 +1,4 @@
+pypdf>=6.0,<7
+
+# Optional but required for contextual AI explanations.
+google-antigravity
